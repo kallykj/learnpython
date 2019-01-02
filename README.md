@@ -11,5 +11,5 @@ This folder contains the ad-hoc projects that assigned by Haocheng. These projec
 
 This folder contains the solutions for [Leetcode](https://leetcode.com/problemset/algorithms/) algorithm problems. These problems are to train the **algorithm solving ability**.
 
-## FromW3source
+## FromW3resource
 This folder contains the solutions for problems in [W3source](https://www.w3resource.com/python-exercises/python-basic-exercises.php). These problems are to train the **basic python usage ability**.

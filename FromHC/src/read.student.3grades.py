@@ -4,13 +4,12 @@
 # name,gradeOfMath,gradeOfLanguage,gradeOfEnglish
 
 fhand = open("../data/student.3grades.txt")
-grade = []
 data = {}
 for line in fhand:
     line = line.rstrip()
     words = line.split(",")
     name = words[0]
-    grade = [words[1], words[2], words[3]]
+    grade = [int(words[1]), int(words[2]), int(words[3])]
     data[name] = grade
 
 print(data)

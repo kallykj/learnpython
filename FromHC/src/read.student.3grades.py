@@ -6,11 +6,8 @@
 fhand = open("../data/student.3grades.txt")
 data = {}
 for line in fhand:
-    line = line.rstrip()
-    words = line.split(",")
-    name = words[0]
-    grade = [int(words[1]), int(words[2]), int(words[3])]
-    data[name] = grade
+    words = line.rstrip().split(',')
+    data[words[0]] = [int(v) for v in words[1:]]
 
 print(data)
 fhand.close()

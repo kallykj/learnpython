@@ -6,6 +6,6 @@ Current date and time :
 """
 
 import datetime
-#wrong format why? :print("Current date and time :\n",datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+#print("Current date and time :\n" + str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
 print("Current date and time :")
 print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))

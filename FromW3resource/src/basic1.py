@@ -12,6 +12,6 @@ Twinkle, twinkle, little star,
 firstline = "Twinkle, twinkle, little star,\n"
 secondline = "\tHow I wonder what you are!\n"
 thirdline = "\t\tUp above the world so high,\n"
-forthline = "\t\tLike a diamond in the sky.\n "
+forthline = "\t\tLike a diamond in the sky.\n"
 fifthline = "\tHow I wonder what you are!"
-print(firstline, secondline, thirdline, forthline, firstline, fifthline)
+print(firstline + secondline + thirdline + forthline + firstline + fifthline)

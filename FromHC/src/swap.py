@@ -8,7 +8,7 @@ After swaping: 300 200
 """
 
 def swap(list, i, j)
-    """
+	"""
 	swap values in list on indice of i and j
 	
 	list: a List

@@ -6,3 +6,7 @@ James Wu
 Output reverse name:
 Wu James
 """
+
+name = input("Print enter a name:")
+words = name.split()
+print(words[1], words[0])

@@ -6,3 +6,7 @@ list2: 4,6,9,10,1,-1
 
 intersection: 4,6,9
 """
+
+list1 = [2,3,4,6,8,9]
+list2 = [4,6,9,10,1,-1]
+print(set(list1) & set(list2))

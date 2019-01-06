@@ -9,3 +9,7 @@ abc
 
 output: abcabcabc
 """
+
+str = input("please enter a string:")
+n = int(input("please enter non-negative integer:"))
+print(str * n)

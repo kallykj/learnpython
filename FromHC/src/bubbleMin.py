@@ -15,10 +15,14 @@ startIdx: 0
 modified list: 1,2,3,5
 """
 
+def swap(List, i, j):
+    List[i], List[j] = List[j], List[i]
+
 def bubbleMin(list, startIdx):
     m = min(list[startIdx:])
     minIdx = list.index(m)
-    list[startIdx], list[minIdx] = list[minIdx], list[startIdx]
+    swap(list, startIdx, minIdx)
+    
 	
 list1 = [3,2,1,5]
 startIdx = 1

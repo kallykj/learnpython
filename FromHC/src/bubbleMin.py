@@ -15,8 +15,7 @@ startIdx: 0
 modified list: 1,2,3,5
 """
 
-def swap(List, i, j):
-    List[i], List[j] = List[j], List[i]
+from swapnew import swap
 
 def bubbleMin(list, startIdx):
     m = min(list[startIdx:])
@@ -35,6 +34,3 @@ startIdx = 0
 print("original list:", list2)
 bubbleMin(list2, 0)
 print("after bubbleMin(list, startIdx =", startIdx, "):", list2)
-
-
-

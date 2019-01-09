@@ -8,8 +8,11 @@ The expected output below is:
 """
 
 def tryToSum(a, b):
-    # implement your sum here, and then delete "pass"
-	pass
+    if type(a) == int and type(b) == int:
+        return a + b
+    else: 
+        return 0
+    
 	
 print(tryToSum(2, 3))
 print(tryToSum("2", "3"))

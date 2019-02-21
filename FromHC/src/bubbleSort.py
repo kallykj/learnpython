@@ -13,10 +13,13 @@ original list: [1,2,100,101]
 after bubbleSort(list): [1,2,100,101]
 """
 
+from bubbleMin import bubbleMin
+
 def bubbleSort(list):
-	# implement your sorting function here and delete "pass"
-    pass
-    
+    startIdx = 0
+    while startIdx < len(list):
+        bubbleMin(list, startIdx)
+        startIdx = startIdx + 1
 	
 list1 = [3,2,1,5]
 print("original list:", list1)
